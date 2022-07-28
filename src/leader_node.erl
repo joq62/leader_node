@@ -16,7 +16,7 @@
 %% --------------------------------------------------------------------
 
 %% --------------------------------------------------------------------
--define(ELECTION_RESPONSE_TIMEOUT,3*100).
+-define(ELECTION_RESPONSE_TIMEOUT,3*20).
 -define(CHECK_CONSISTENCE_INTERVAL,10*1000).
 
 %%% bully algorithm messages

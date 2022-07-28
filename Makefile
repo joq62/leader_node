@@ -5,7 +5,10 @@ all:
 	rebar3 compile;	
 	cp _build/default/lib/*/ebin/* ebin;
 	rm -rf _build test_ebin logs;
-	echo Done
+	git add -f *;
+	git commit -m $(m);
+	git push;
+	echo Ok there you go!
 check:
 	rebar3 check
 eunit:
