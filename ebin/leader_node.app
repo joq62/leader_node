@@ -1,0 +1,11 @@
+{application,leader_node,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{leader_node_app,[]}},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[coordinator_server,leader_node,leader_node_app,
+                        leader_node_sup]},
+              {licenses,["Apache 2.0"]},
+              {links,[]}]}.
